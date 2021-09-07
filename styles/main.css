@@ -1,0 +1,15 @@
+body {
+    background-color: lightslategray;
+    font-family: 'Besley', serif;
+    font-weight: 300;
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
+.blog-color {
+    color: #0031ff;
+}
+ul {
+    text-align: center;
+}
