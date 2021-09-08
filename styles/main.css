@@ -11,10 +11,25 @@ body {
 hr {
     list-style:
 }
-.flex-container {
-    flex-direction: column;
+.row{
+    width:100%
+    display: flex;
 }
-.left-column{
+.row-1 {
+    display: flex;
+    background-color: lightsteelblue;
+}
+.col-4 {
+    width: 33.33%
+
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    /*flex-direction: column;*/
+}
+/*.left-column{
     width: 33.33%;
     height: fit-content;
     float: left;
@@ -34,7 +49,7 @@ hr {
 }
 .navigation {
     text-align: center;
-}
+}*/
 .index-link {
     text-decoration: none;
     color: #000;
