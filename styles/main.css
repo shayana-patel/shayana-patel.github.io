@@ -2,7 +2,7 @@ body {
     background-color: lightslategray;
     font-family: 'Besley', serif;
     font-weight: 300;
-    text-align: left;
+    text-align: center;
 }
 .title {
     text-align: center;
@@ -32,8 +32,15 @@ hr {
 .navigation {
     text-align: center;
 }
-.blog-color {
-    color: #fff;
+.index-link {
+    text-decoration: none;
+    color: #000;
+}
+img {
+    border: 5px lightsteelblue solid;
+    border-radius: 0%;
+    width: 350px;
+    height: 400px;
 }
 ul {
     text-align: left;
