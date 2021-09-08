@@ -11,6 +11,9 @@ body {
 hr {
     list-style:
 }
+.flex-container {
+    flex-direction: column;
+}
 .left-column{
     width: 33.33%;
     height: fit-content;
