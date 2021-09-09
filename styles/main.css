@@ -1,27 +1,27 @@
 body {
     background-color: lightslategray;
-    font-family: 'Besley', serif;
-    font-size: medium;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
     text-align: center;
+    color: #232c49;
 }
 header {
+    font-family: 'Playfair Display', serif;
     text-align: center;
     text-transform: uppercase;
-    font-size: large;
+    font-size: 25pt;
     font-weight: bold;
 }
 footer {
+    font-family: 'Playfair Display', serif;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .row-1{
     width:100%
     display: flex;
 }
-/*.row-2 {
-    display: flex;
-    background-color: lightsteelblue;
-}*/
 div.row-2 {
     display: inline-block;
     padding: 210px
@@ -30,11 +30,6 @@ div.row-2 {
     width: 33.33%
 
 }
-.grid {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-}
 .navigation-bar {
     background-color: lightsteelblue;
     display: flex;
@@ -42,11 +37,11 @@ div.row-2 {
 }
 .navigation-link {
     text-decoration: none;
-    color: #000;
+    color: #232c49;
 }
 .navigation-link:hover {
     text-decoration: none;
-    color: #da4f05;
+    color: #ce5151;
 }
 #photo-of-me {
     border: 5px lightsteelblue solid;
