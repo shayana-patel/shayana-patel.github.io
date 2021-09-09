@@ -4,24 +4,27 @@ body {
     font-size: medium;
     text-align: center;
 }
-.title {
+header {
     text-align: center;
     text-transform: uppercase;
-    font-size: 30pt;
+    font-size: large;
     font-weight: bold;
+}
+footer {
+    text-align: center;
+    text-transform: uppercase;
 }
 .row-1{
     width:100%
     display: flex;
 }
-.row-2 {
+/*.row-2 {
     display: flex;
     background-color: lightsteelblue;
-}
-.row-3 {
+}*/
+div.row-2 {
     display: inline-block;
-    height: 75%
-    
+    padding: 210px
 }
 .col-4 {
     width: 33.33%
@@ -31,6 +34,11 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
+}
+.navigation-bar {
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-evenly;
 }
 .navigation-link {
     text-decoration: none;
