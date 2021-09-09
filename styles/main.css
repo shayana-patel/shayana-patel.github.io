@@ -32,11 +32,11 @@ body {
     max-width: 1200px;
     width: 100%;
 }
-.index-link {
+.navigation-link {
     text-decoration: none;
     color: #000;
 }
-.index-link:hover {
+.navigation-link:hover {
     text-decoration: none;
     color: #da4f05;
 }
@@ -62,4 +62,8 @@ ul {
     text-align: center;
     font-size: medium;
     font-weight: 100;
+}
+#img-caption {
+    text-align: center;
+    font-size: 10pt;
 }
