@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Besley:wght@400;600&display=swap" rel="stylesheet">
-    <title>CSS Concepts</title>
+    <title>CSS Display Properties</title>
   <body>
     <div class="row-1">
-      <header class="col-12 title"><a href="../index.html" class="index-link">Shayana Patel</a></header>
+      <header class="col-12 title"><a href="../index.html" class="navigation-link">Shayana Patel</a></header>
     </div>
     <div class="grid">
       <div class="row-2">
-        <div class="col-4"><h3 class="navigation"><a href="../aboutme.html">About Me</a></h3></div>
-        <div class="col-4"><h3 class="navigation"><a href="../blogpage.html">Blog Posts</a></h3></div>
-        <div class="col-4"><h3 class="navigation"><a href="https://github.com/shayana-patel">My GitHub</a></h3></div>
+        <div class="col-4"><h2><a href="../aboutme.html" class="navigation-link">About Me</a></h2></div>
+        <div class="col-4"><h2><a href="../blogpage.html" class="navigation-link">Blog Posts</a></h2></div>
+        <div class="col-4"><h2><a href="https://github.com/shayana-patel" target="_blank" class="navigation-link">My GitHub</a></h2></div>
       </div>
     <hr>
     <div>
@@ -26,22 +26,52 @@
     <div>
         <h3 id="inline">Display: Inline<h3>
         <p class="description">Elements are arranged on the same line and only take up as much width as necessary. However they are not effected by width and height changes but are by margin and padding changes.
-           Changes to margin and padding only effects the elements next to it along the horizontal plain i.e. if they are increased
-           the element will push elements on the left and right away, but element would then overlap the element on the lines above and below it.</p>
-        <img screenshot of HTML and CSS code !alt="Image caption">
-        <img of example on webpage !alt="Image caption">
+           Changes to margin and padding only effects the elements next to it along the horizontal plane i.e. if they are increased
+           the element will push surrounding elements to the left and right away, but it would then overlap the elements on the lines above and below it. Some elements and tags have a default inline property. These include: <strong>span, img,</strong> and <strong>a</strong> elements; <strong>em, strong,</strong> and <strong>i</strong> tags.</p>
+        <img src="../images/display-inline-html.PNG" alt="HTML content to have display: inline property applied">
+        <br>
+        <figcaption id="img-caption"><em>HTML content to have display: inline property applied</em>
+        <br>
+        <img src="../images/display-inline-css.PNG" alt="How the display: inline property appears in CSS">
+        <br>
+        <figcaption id="img-caption"><em>How the display: inline property appears in CSS</em>
+        <br>
+        <img src="../images/display-inline-example.PNG" alt="Example of what display: inline property would look like on a website">
+        <br>
+        <figcaption id="img-caption"><em>Example of what display: inline property would look like on a website</em>
+        <br>
     </div>
     <div>
         <h3 id="inline-block">Display: Inline-Block<h3>
         <p class="description">Elements are displayed on the same line without line breaks, but allows setting width and height properties so that elements can can arranged next to each other without, overlapping.</p>
-        <img screenshot of HTML and CSS code !alt="Image caption">
-        <img of example on webpage !alt="Image caption">
+        <img src="../images/display-inlineblock-html.PNG" alt="HTML content to have display: inline-block property applied">
+        <br>
+        <figcaption id="img-caption"><em>HTML content to have display: inline-block property applied</em>
+        <br>
+        <img src="../images//display-inlineblock-css.PNG" alt="How the display: inline-block property appears in CSS">
+        <br>
+        <figcaption id="img-caption"><em>How the display: inline-block property appears in CSS</em>
+        <br>
+        <img src="../images/display-inlineblock-example.PNG" alt="Example of what display: inline-block property would look like on a website">
+        <br>
+        <figcaption id="img-caption"><em>Example of what display: inline-block property would look like on a website</em>
+        <br>
     </div>
     <div>
         <h3 id="block">Display: Block<h3>
-        <p class="description">Displays the elements on a new line. They take up the full width available on the line by default. Elements are effected by changes in margin, padding, width, and height properties.</p>
-        <img screenshot of HTML and CSS code !alt="Image caption">
-        <img of example on webpage !alt="Image caption">
+        <p class="description">Displays the elements on a new line. They take up the full width available on the line by default. Elements are effected by changes in margin, padding, width, and height properties. Some elements have a default block property. These include: <strong> div, h1-h6, p,</strong> and <strong>li</strong>.</p>
+        <img src="../images/display-inline-html.PNG" alt="HTML content to have display: block property applied">
+        <br>
+        <figcaption id="img-caption"><em>HTML content to have display: block property applied</em>
+        <br>
+        <img src="../images/display-inline-css.PNG" alt="How the display: block property appears in CSS">
+        <br>
+        <figcaption id="img-caption"><em>How the display: block property appears in CSS</em>
+        <br>
+        <img src="../images/display-inline-example.PNG" alt="Example of what display: block property would look like on a website">
+        <br>
+        <figcaption id="img-caption"><em>Example of what display: block property would look like on a website</em>
+        <br>
     </div>
   </body>
 </html>
