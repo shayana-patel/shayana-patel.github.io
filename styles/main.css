@@ -18,9 +18,11 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
 }
-.row-1{
-    width:100%
-    display: flex;
+hr {
+    height: 2px;
+    background-color: #ce5151;
+    border-color: #ce5151;
+    width: 100%;
 }
 div.row-2 {
     display: inline-block;
@@ -49,8 +51,11 @@ div.row-2 {
     width: 350px;
     height: 400px;
 }
+#list {
+    text-align: center;
+}
 ul {
-    text-align: left;
+    display: inline-block
 }
 #inline {
     text-decoration: underline;
