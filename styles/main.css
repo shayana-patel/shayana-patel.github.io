@@ -51,7 +51,7 @@ div.index-content {
     text-align: center;
 }
 ul {
-    display: inline-block
+     display: inline-block;
 }
 .blog-subheadings {
     text-decoration: underline;
