@@ -28,10 +28,6 @@ div.row-2 {
     display: inline-block;
     padding: 210px
 }
-.col-4 {
-    width: 33.33%
-
-}
 .navigation-bar {
     background-color: lightsteelblue;
     display: flex;
@@ -57,21 +53,10 @@ div.row-2 {
 ul {
     display: inline-block
 }
-#inline {
+.display-property-title {
     text-decoration: underline;
-}
-#inline-block {
-    text-decoration: underline;
-}
-#block {
-    text-decoration: underline;
-}
-.description {
-    text-align: center;
-    font-size: medium;
-    font-weight: 100;
 }
 #img-caption {
     text-align: center;
-    font-size: 10pt;
+    font-size: 11pt;
 }
