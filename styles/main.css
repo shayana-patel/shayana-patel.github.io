@@ -24,7 +24,7 @@ hr {
     border-color: #ce5151;
     width: 100%;
 }
-div.row-2 {
+div.index-content {
     display: inline-block;
     padding: 210px
 }
@@ -53,10 +53,16 @@ div.row-2 {
 ul {
     display: inline-block
 }
-.display-property-title {
+.blog-subheadings {
     text-decoration: underline;
 }
 #img-caption {
     text-align: center;
     font-size: 11pt;
+}
+div.blog-content {
+    padding-right: 50px;
+    padding-left: 50px;
+    display: block;
+    text-align: center;
 }
