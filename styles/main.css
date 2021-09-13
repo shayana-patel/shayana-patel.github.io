@@ -41,6 +41,10 @@ div.index-content {
     text-decoration: none;
     color: #ce5151;
 }
+.citation-links {
+    text-decoration: none;
+    color: #ce5151
+}
 #photo-of-me {
     border: 5px lightsteelblue solid;
     border-radius: 0%;
@@ -52,6 +56,9 @@ div.index-content {
 }
 ul {
      display: inline-block;
+}
+ol {
+    display: inline-block;
 }
 .blog-subheadings {
     text-decoration: underline;
