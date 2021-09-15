@@ -1,15 +1,15 @@
 body {
-    background-color: lightslategray;
+    background-color: #d3d3d3;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: large;
+    font-size: 20pt;
     text-align: center;
-    color: #232c49;
+    color: #0d1529;
 }
 header {
     font-family: 'Playfair Display', serif;
     text-align: center;
     text-transform: uppercase;
-    font-size: 25pt;
+    font-size: 30pt;
     font-weight: bold;
 }
 footer {
@@ -17,6 +17,7 @@ footer {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 18pt;
 }
 hr {
     height: 2px;
@@ -26,7 +27,7 @@ hr {
 }
 div.index-content {
     display: inline-block;
-    padding: 210px
+    padding: 300px
 }
 .navigation-bar {
     background-color: lightsteelblue;
@@ -50,12 +51,10 @@ div.index-content {
     border-radius: 0%;
     width: 350px;
     height: 400px;
-}
-#list {
-    text-align: center;
+    align-items: center;
 }
 ul {
-     display: inline-block;
+     display: inline-block;S
 }
 ol {
     display: inline-block;
@@ -65,13 +64,13 @@ ol {
 }
 #img-caption {
     text-align: center;
-    font-size: 11pt;
+    font-size: 15pt;
 }
 div.blog-content {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 300px;
+    padding-left: 300px;
     display: block;
-    text-align: center;
+    text-align: justify;
 }
 div.blog-page {
     padding-bottom: 275px;
