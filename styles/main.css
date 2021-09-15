@@ -2,9 +2,8 @@ body {
     background-color: #d3d3d3;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20pt;
-    text-align: center;
+    text-align: justify;
     color: #0d1529;
-    padding: 0px 200px 0px 200px;
 }
 header {
     font-family: 'Playfair Display', serif;
@@ -70,6 +69,7 @@ ol {
 div.blog-content {
     display: block;
     text-align: center;
+    padding: 0px 200px 0px 200px;
 }
 div.blog-page {
     padding-bottom: 275px;
