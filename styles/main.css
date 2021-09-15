@@ -1,7 +1,7 @@
 body {
     background-color: #d3d3d3;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20pt;
+    font-size: larger;
     text-align: justify;
     color: #0d1529;
 }
@@ -17,7 +17,7 @@ footer {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18pt;
+    /*font-size: 18pt;*/
 }
 hr {
     height: 2px;
@@ -27,7 +27,8 @@ hr {
 }
 div.index-content {
     display: inline-block;
-    padding: 300px;
+    padding: 210px;
+    font-size: 20pt;
 }
 .navigation-bar {
     background-color: lightsteelblue;
@@ -49,7 +50,7 @@ div.index-content {
 #photo-of-me {
     border: 5px lightsteelblue solid;
     border-radius: 0%;
-    align-items: justify;
+    /*align-items: justify;*/
 }
 ul {
      display: inline-block;
@@ -68,10 +69,13 @@ img {
     font-size: 15pt;
 }
 div.blog-content {
+    padding-right: 50px;
+    padding-left: 50px;
     display: block;
     text-align: justify;
-    padding: 0px 200px 0px 200px;
+    font-size: 20pt;
 }
 div.blog-page {
     padding-bottom: 275px;
+    font-size: 20pt;
 }
