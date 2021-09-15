@@ -63,12 +63,12 @@ ol {
     text-decoration: underline;
 }
 #img-caption {
-    text-align: center;
-    font-size: 11pt;
+    text-align: justify;
+    font-size: 18pt;
 }
 div.blog-content {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
     display: block;
     text-align: justify;
 }
