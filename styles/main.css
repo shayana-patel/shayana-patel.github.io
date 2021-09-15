@@ -49,9 +49,7 @@ div.index-content {
 #photo-of-me {
     border: 5px lightsteelblue solid;
     border-radius: 0%;
-    width: 350px;
-    height: 400px;
-    align-items: center;
+    align-items: justify;
 }
 ul {
      display: inline-block;
@@ -62,13 +60,16 @@ ol {
 .blog-subheadings {
     text-decoration: underline;
 }
+img {
+    display: block;
+}
 #img-caption {
-    text-align: center;
+    text-align: justify;
     font-size: 15pt;
 }
 div.blog-content {
     display: block;
-    text-align: center;
+    text-align: justify;
     padding: 0px 200px 0px 200px;
 }
 div.blog-page {
