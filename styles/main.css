@@ -4,6 +4,7 @@ body {
     font-size: 20pt;
     text-align: center;
     color: #0d1529;
+    padding: 0px 200px 0px 200px;
 }
 header {
     font-family: 'Playfair Display', serif;
@@ -54,7 +55,7 @@ div.index-content {
     align-items: center;
 }
 ul {
-     display: inline-block;S
+     display: inline-block;
 }
 ol {
     display: inline-block;
@@ -67,8 +68,6 @@ ol {
     font-size: 15pt;
 }
 div.blog-content {
-    padding-right: 300px;
-    padding-left: 300px;
     display: block;
     text-align: center;
 }
