@@ -9,72 +9,73 @@
     <title>CSS Display Properties Blog Post</title>
   <body>
     <header><h1><a href="../index.html" class="navigation-link index-link">Shayana Patel</a></h1></header>
-    <nav class="navigation-bar">
-      <h2><a href="../aboutme.html" class="navigation-link">ABOUT ME</a></h2>
-      <h2><a href="../blogpage.html" class="navigation-link">BLOG</a></h2>
-      <h2><a href="https://github.com/shayana-patel" target="_blank" class="navigation-link">GITHUB</a></h2>
-    </nav>
     <hr>
-    <div class="blog-content"><h3>09 September 2021</h3></div>
-    <div class="blog-content">
-      <h2>Display Inline vs Inline-Block vs Block: What's the difference?</h2>
-      <p>This blog will be explore what it means to display inline, inline-block, and block. First thing to know is that the <span><em>display</em></span> property determines how HTML elements are are going to be arranged on a website.</p>
-    </div>
-    <div class="blog-content">
-      <h3 class="blog-subheadings">Display: Inline</h3>
-      <p>Elements are arranged on the same line and only take up as much width as necessary. However they are not effected by width and height changes but are by margin and padding changes.Changes to margin and padding only effects the elements next to it along the horizontal plane i.e. if they are increased the element will push surrounding elements to the left and right away, but it would then overlap the elements on the lines above and below it. Some elements and tags have a default inline property. These include: <strong>span, img,</strong> and <strong>a</strong> elements; <strong>em, strong,</strong> and <strong>i</strong> tags.</p>
-      <img src="../images/display-inline-html.PNG" alt="HTML content to have display: inline property applied">
-      <br>
-      <figcaption id="img-caption"><em>HTML content to have display: inline property applied</em>
-      <br>
-      <br>
-      <img src="../images/display-inline-css.PNG" alt="How the display: inline property appears in CSS">
-      <br>
-      <figcaption id="img-caption"><em>How the display: inline property appears in CSS</em>
-      <br>
-      <br>
-      <img src="../images/display-inline-example.PNG" alt="Example of what display: inline property would look like on a website">
-      <br>
-      <figcaption id="img-caption"><em>Example of what display: inline property would look like on a website</em>
-      <br>
-    </div>
-    <div class="blog-content">
-      <h3 class="blog-subheadings">Display: Inline-Block</h3>
-      <p>Elements are displayed on the same line without line breaks, but allows setting width and height properties so that elements can can arranged next to each other without, overlapping.</p>
-      <img src="../images/display-inlineblock-html.PNG" alt="HTML content to have display: inline-block property applied">
-      <br>
-      <figcaption id="img-caption"><em>HTML content to have display: inline-block property applied</em>
-      <br>
-      <br>
-      <img src="../images//display-inlineblock-css.PNG" alt="How the display: inline-block property appears in CSS">
-      <br>
-      <figcaption id="img-caption"><em>How the display: inline-block property appears in CSS</em>
-      <br>
-      <br>
-      <img src="../images/display-inlineblock-example.PNG" alt="Example of what display: inline-block property would look like on a website">
-      <br>
-      <figcaption id="img-caption"><em>Example of what display: inline-block property would look like on a website</em>
-      <br>
-    </div>
-    <div class="blog-content">
-      <h3 class="blog-subheadings">Display: Block</h3>
-      <p>Displays the elements on a new line. They take up the full width available on the line by default. Elements are effected by changes in margin, padding, width, and height properties. Some elements have a default block property. These include: <strong> div, h1-h6, p,</strong> and <strong>li</strong>.</p>
-      <img src="../images/display-block-html.PNG" alt="HTML content to have display: block property applied">
-      <br>
-      <figcaption id="img-caption"><em>HTML content to have display: block property applied</em>
-      <br>
-      <br>
-      <img src="../images/display-block-html.PNG" alt="How the display: block property appears in CSS">
-      <br>
-      <figcaption id="img-caption"><em>How the display: block property appears in CSS</em>
-      <br>
-      <br>
-      <img src="../images/display-block-example.PNG" alt="Example of what display: block property would look like on a website">
-      <br>
-      <figcaption id="img-caption"><em>Example of what display: block property would look like on a website</em>
-      <br>
-      <br>
-    </div>
+    <section>
+        <nav id="navigation-bar">
+          <ul>
+              <li class="nav-content"><a href="../aboutme.html" class="navigation-link">ABOUT ME</a></li>
+              <li class="nav-content"><a href="../blogpage.html" class="navigation-link">BLOG</a></li>
+              <li class="nav-content"><a href="https://github.com/shayana-patel" target="_blank" class="navigation-link">GITHUB</a></li>
+          </ul>
+        </nav>
+        <article>
+          <h3>09 September 2021</h3>
+          <br>
+          <h2>Display Inline vs Inline-Block vs Block: What's the difference?</h2>
+          <p>This blog will be explore what it means to display inline, inline-block, and block. First thing to know is that the <span><em>display</em></span> property determines how HTML elements are are going to be arranged on a website.</p>
+          <br>
+          <h3 class="blog-subheadings">Display: Inline</h3>
+          <p>Elements are arranged on the same line and only take up as much width as necessary. However they are not effected by width and height changes but are by margin and padding changes.Changes to margin and padding only effects the elements next to it along the horizontal plane i.e. if they are increased the element will push surrounding elements to the left and right away, but it would then overlap the elements on the lines above and below it. Some elements and tags have a default inline property. These include: <strong>span, img,</strong> and <strong>a</strong> elements; <strong>em, strong,</strong> and <strong>i</strong> tags.</p>
+        <img src="../images/display-inline-html.PNG" alt="HTML content to have display: inline property applied">
+        <br>
+        <figcaption><em>HTML content to have display: inline property applied</em></figcaption>
+        <br>
+        <br>
+        <img src="../images/display-inline-css.PNG" alt="How the display: inline property appears in CSS">
+        <br>
+        <figcaption><em>How the display: inline property appears in CSS</em></figcaption>
+        <br>
+        <br>
+        <img src="../images/display-inline-example.PNG" alt="Example of what display: inline property would look like on a website">
+        <br>
+        <figcaption><em>Example of what display: inline property would look like on a website</em></figcaption>
+        <br>
+        <br>
+        <h3 class="blog-subheadings">Display: Inline-Block</h3>
+        <p>Elements are displayed on the same line without line breaks, but allows setting width and height properties so that elements can can arranged next to each other without, overlapping.</p>
+        <img src="../images/display-inlineblock-html.PNG" alt="HTML content to have display: inline-block property applied">
+        <br>
+        <figcaption><em>HTML content to have display: inline-block property applied</em></figcaption>
+        <br>
+        <br>
+        <img src="../images//display-inlineblock-css.PNG" alt="How the display: inline-block property appears in CSS">
+        <br>
+        <figcaption><em>How the display: inline-block property appears in CSS</em></figcaption>
+        <br>
+        <br>
+        <img src="../images/display-inlineblock-example.PNG" alt="Example of what display: inline-block property would look like on a website">
+        <br>
+        <figcaption><em>Example of what display: inline-block property would look like on a website</em></figcaption>
+        <br>
+        <br>
+        <h3 class="blog-subheadings">Display: Block</h3>
+        <p>Displays the elements on a new line. They take up the full width available on the line by default. Elements are effected by changes in margin, padding, width, and height properties. Some elements have a default block property. These include: <strong> div, h1-h6, p,</strong> and <strong>li</strong>.</p>
+        <img src="../images/display-block-html.PNG" alt="HTML content to have display: block property applied">
+        <br>
+        <figcaption><em>HTML content to have display: block property applied</em></figcaption>
+        <br>
+        <br>
+        <img src="../images/display-block-html.PNG" alt="How the display: block property appears in CSS">
+        <br>
+        <figcaption><em>How the display: block property appears in CSS</em></figcaption>
+        <br>
+        <br>
+        <img src="../images/display-block-example.PNG" alt="Example of what display: block property would look like on a website">
+        <br>
+        <figcaption><em>Example of what display: block property would look like on a website</em></figcaption>
+        <br>
+        </article>
+    </section>
     <hr>
     <footer>COPYRIGHT © 2021 SHAYANA PATEL</footer>
   </body>
