@@ -105,6 +105,9 @@ figcaption {
 .technical-images {
     max-width: 100%
 }
+#quote {
+    text-indent: 8mm;
+}
 /*ul {
      display: inline-block;
 }
