@@ -99,6 +99,12 @@ nav > ul {
 .blog-subheadings {
     text-decoration: underline;
 }
+figcaption {
+    font-size: 15pt;
+}
+.technical-images {
+    max-width: 100%
+}
 /*ul {
      display: inline-block;
 }
