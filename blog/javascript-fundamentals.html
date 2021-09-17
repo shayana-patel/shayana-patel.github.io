@@ -6,49 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <title>JavaScript Fundamentals Blog Post</title>
+    <title>CSS Display Properties Blog Post</title>
   <body>
     <header><h1><a href="../index.html" class="navigation-link index-link">Shayana Patel</a></h1></header>
-    <nav class="navigation-bar">
-      <h2><a href="../aboutme.html" class="navigation-link">ABOUT ME</a></h2>
-      <h2><a href="../blogpage.html" class="navigation-link">BLOG</a></h2>
-      <h2><a href="https://github.com/shayana-patel" target="_blank" class="navigation-link">GITHUB</a></h2>
-    </nav>
     <hr>
-    <div class="blog-content"><h3>17 September 2021</h3></div>
-      <h2>JavaScript Fundamentals</h2>
-      <br>
-      <h3 class="blog-subheadings">HTML vs CSS vs JavaScript</h3>
-      <p>HTML stands for HyperText Markup Language. It is the standard markup language used to create webpages. HTML basically defines the structure/framework and content of a webpage. You could think of HTML as the structure of the human body, i.e the bones.</p>
-      <p>CSS stands for Cascading Style Sheets. It is a style sheet language used for controlling the look, layout and formatting of a document written in a markup language. You can think of CSS as being the stylings of the body i.e., height, hair type and colour, skin colour, eye colour, etc.</p>
-      <p>JavaScript is a programming language that is used to make webpages more interactive for users. It essentially enhances the HTML and CSS elements, manipulating them being inactive features to interactive ones. Examples of this include creating dropdown menus or displaying animations, adding pop up windows after user input. Keeping on theme with the human body example, JavaScript would essentially be the nervous system, responsible for the movement of the body and the communication between its different parts.</p>
-      <br>
-      <h3 class="blog-subheadings">Control Flow & Loops</h3>
-      <p>Control flow is the order that function calls, statements, or instructions are executed in a programme. In general, the code is executed from the first line down to the last line. However, there are structures in the code that can alter the control flow, such as loops (for, while, do… while) and conditional statements (if, if…else).  Loops are used to tell the programme to repeat a particular task until a certain condition is met. There are three types of looping statements: for, while, and do…while. For example, if you were exercising, do a push up while the number of push-ups you have done is less than 20. The act of doing a push up would loop, until you have met the condition of having done 20 push-ups. Once you have met this condition, the loop stops. </p>
-      <br>
-      <h3 class="blog-subheadings">Arrays & Objects</h3>
-      <p>Arrays are used when you want to create a list of multiple items in a single variable. Arrays are useful to use for creating an ordered collection of items. The items in the collection are then accessed by their numerical index position. In this structure, the first item in the array is stored at index [0], the second item is at index [1], and so on for the remaining items in the list. Items in an array can be accessed using the square bracket notation. An example of an array is shown below:</p>
-      <img src="" alt="">
-      <br>
-      <figcaption id="img-caption"><em></em></figcaption>
-      <p>Objects are at data structure used in JavaScript to represent a ‘thing’ e.g., a person, a book, a country etc. Unlike arrays, objects are used to store a collection of data. It allows a single item to have many properties grouped together in key-value pairs. If you want to access the data inside an object, you can use either the dot or square bracket notation. An example is shown below:</p>
-      <img src="" alt="">
-      <br>
-      <figcaption id="img-caption"><em></em></figcaption>
-      <br>
-      <h3 class="blog-subheadings">The DOM & DevTools</h3>
-      <p>The Document Object Model (DOM) is an application programming interface which allows programmers to interact with elements and objects in HTML. The DOM tree is a representation of the objects that make up the structure and content of a web-page document. The entire web-page document is represented as nodes and objects. The tree-like structure shows the relationships between the nodes and objects in a webpage. Nodes can be elements, text-content, attributes etc. The DOM allows for the manipulation of the webpage structure, content and style. The DOM is essentially the rope that ties HTML, CSS, and JavaScript together.</p>
-      <p>DevTools are programs that allow developers to test, and debug websites, and is accessed through your web browser. Through elements panel in DevTools, you can view the DOM tree of the website. </p>
-      <img src="" alt="">
-      <br>
-      <figcaption id="img-caption"><em></em></figcaption>
-      <br>
-      <h3 class="blog-subheadings">Functions</h3>
-      <p>In JavaScript, a function is a block of reusable code. To declare a function, it must be defined with the function keyword, which is then followed by the function name, parentheses which contains the parameters, and then curly brackets which contains the statements that define what function will do. Once the function has been declared, it can then be called, which means the function will execute. Functions are useful as it enables code to be used as may times as you want, without having to rewrite the code every time you want to use it.</p>
-      <img src="" alt="">
-      <br>
-      <figcaption id="img-caption"><em></em></figcaption>
-
+    <section>
+      <nav id="navigation-bar">
+        <ul>
+            <li class="nav-content"><a href="../aboutme.html" class="navigation-link">ABOUT ME</a></li>
+            <li class="nav-content"><a href="../blogpage.html" class="navigation-link">BLOG</a></li>
+            <li class="nav-content"><a href="https://github.com/shayana-patel" target="_blank" class="navigation-link">GITHUB</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h3>17 September 2021</h3>
+        <br>
+        <h2>JavaScript Fundamentals</h2>
+        <br>
+        <h3 class="blog-subheadings">HTML vs CSS vs JavaScript</h3>
+        <p>HTML stands for HyperText Markup Language. It is the standard markup language used to create webpages. HTML basically defines the structure/framework and content of a webpage. You could think of HTML as the structure of the human body, i.e the bones.</p>
+        <p>CSS stands for Cascading Style Sheets. It is a style sheet language used for controlling the look, layout and formatting of a document written in a markup language. You can think of CSS as being the stylings of the body i.e., height, hair type and colour, skin colour, eye colour, etc.</p>
+        <p>JavaScript is a programming language that is used to make webpages more interactive for users. It essentially enhances the HTML and CSS elements, manipulating them being inactive features to interactive ones. Examples of this include creating dropdown menus or displaying animations, adding pop up windows after user input. Keeping on theme with the human body example, JavaScript would essentially be the nervous system, responsible for the movement of the body and the communication between its different parts.</p>
+        <br>
+        <h3 class="blog-subheadings">Control Flow & Loops</h3>
+        <p>Control flow is the order that function calls, statements, or instructions are executed in a programme. In general, the code is executed from the first line down to the last line. However, there are structures in the code that can alter the control flow, such as loops (for, while, do… while) and conditional statements (if, if…else).  Loops are used to tell the programme to repeat a particular task until a certain condition is met. There are three types of looping statements: for, while, and do…while. For example, if you were exercising, do a push up while the number of push-ups you have done is less than 20. The act of doing a push up would loop, until you have met the condition of having done 20 push-ups. Once you have met this condition, the loop stops. </p>
+        <br>
+        <h3 class="blog-subheadings">Arrays & Objects</h3>
+        <p>Arrays are used when you want to create a list of multiple items in a single variable. Arrays are useful to use for creating an ordered collection of items. The items in the collection are then accessed by their numerical index position. In this structure, the first item in the array is stored at index [0], the second item is at index [1], and so on for the remaining items in the list. Items in an array can be accessed using the square bracket notation. An example of an array is shown below:</p>
+        <img src="" alt="">
+        <br>
+        <figcaption id="img-caption"><em></em></figcaption>
+        <p>Objects are at data structure used in JavaScript to represent a ‘thing’ e.g., a person, a book, a country etc. Unlike arrays, objects are used to store a collection of data. It allows a single item to have many properties grouped together in key-value pairs. If you want to access the data inside an object, you can use either the dot or square bracket notation. An example is shown below:</p>
+        <img src="" alt="">
+        <br>
+        <figcaption id="img-caption"><em></em></figcaption>
+        <br>
+        <h3 class="blog-subheadings">The DOM & DevTools</h3>
+        <p>The Document Object Model (DOM) is an application programming interface which allows programmers to interact with elements and objects in HTML. The DOM tree is a representation of the objects that make up the structure and content of a web-page document. The entire web-page document is represented as nodes and objects. The tree-like structure shows the relationships between the nodes and objects in a webpage. Nodes can be elements, text-content, attributes etc. The DOM allows for the manipulation of the webpage structure, content and style. The DOM is essentially the rope that ties HTML, CSS, and JavaScript together.</p>
+        <p>DevTools are programs that allow developers to test, and debug websites, and is accessed through your web browser. Through elements panel in DevTools, you can view the DOM tree of the website. </p>
+        <img src="" alt="">
+        <br>
+        <figcaption id="img-caption"><em></em></figcaption>
+        <br>
+        <h3 class="blog-subheadings">Functions</h3>
+        <p>In JavaScript, a function is a block of reusable code. To declare a function, it must be defined with the function keyword, which is then followed by the function name, parentheses which contains the parameters, and then curly brackets which contains the statements that define what function will do. Once the function has been declared, it can then be called, which means the function will execute. Functions are useful as it enables code to be used as may times as you want, without having to rewrite the code every time you want to use it.</p>
+        <img src="" alt="">
+        <br>
+        <figcaption id="img-caption"><em></em></figcaption>
+      </article>
+    </section>
     <hr>
     <footer>COPYRIGHT © 2021 SHAYANA PATEL</footer>
   </body>
