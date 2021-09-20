@@ -51,11 +51,10 @@ article {
 
 .core-container {
     display: inline-table;
-    padding-right: 50px;
+    padding-right: 80px;
 }
 .tech-container {
     display: inline-table;
-    padding-left: 50px;
 }
 .index-link {
     text-decoration: none;
