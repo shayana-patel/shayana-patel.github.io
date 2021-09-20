@@ -48,6 +48,15 @@ article {
   padding: 20px;
   border: 5px lightsteelblue solid;
 }
+
+.core-container {
+    display: inline-table;
+    padding-right: 50px;
+}
+.tech-container {
+    display: inline-table;
+    padding-left: 50px;
+}
 .index-link {
     text-decoration: none;
     color: #232c49;
