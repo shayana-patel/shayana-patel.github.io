@@ -63,7 +63,7 @@ article {
 }
 .index-link:hover {
     text-decoration: none;
-    color:#ce5151
+    color:#9b0a2c
 }
 #navigation-bar {
     -webkit-flex: 1;
@@ -88,11 +88,15 @@ nav > ul {
 }
 .navigation-link:hover {
     text-decoration: none;
-    color: #ce5151;
+    color: #9b0a2c;
 }
 .citation-links {
     text-decoration: none;
-    color: #ce5151
+    color: #9b0a2c
+}
+.useful-links {
+    text-decoration: none;
+    color: #9b0a2c;
 }
 #photo-of-me {
     border: 5px lightsteelblue solid;
